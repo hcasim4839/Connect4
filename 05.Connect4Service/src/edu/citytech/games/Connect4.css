@@ -1,0 +1,40 @@
+.custom-label {
+   -fx-text-fill: black;
+   -fx-border-color:black;
+   -fx-min-height: 50px;
+   -fx-min-width: 55px;
+   -fx-border-insets: .55px;
+   -fx-font-size: 45;
+}
+
+.background {
+   -fx-background-color: royalblue;
+
+}
+
+.red {
+   -fx-fill: red;
+}
+
+.yellow {
+   -fx-fill: yellow;
+}
+.style2 {
+    -fx-text-fill: blue;
+    -fx-border-color: red;
+    -fx-font-size: 15;
+    -fx-underline: true;
+}
+
+.flow-bg {
+-fx-background-color: #4287f5
+}
+
+.anchor-bg {
+-fx-background-color: #131313;
+}
+
+.custom-button{
+	-fx-text-fill: black;
+	-fx-background-color: white;
+}

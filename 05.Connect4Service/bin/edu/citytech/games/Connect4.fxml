@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="600.0" stylesheets="@Connect4.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.citytech.games.GamesController">
+   <children>
+      <FlowPane fx:id="fpPane" layoutX="88.0" layoutY="47.0" prefHeight="367.0" prefWidth="425.0" styleClass="background" stylesheets="@Connect4.css">
+         <children>
+            <Circle fx:id="circle0" fill="WHITE" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets left="7.0" right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle1" fill="WHITE" layoutX="36.0" layoutY="36.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle2" fill="WHITE" layoutX="88.0" layoutY="36.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle3" fill="WHITE" layoutX="140.0" layoutY="36.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle4" fill="WHITE" layoutX="192.0" layoutY="36.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle5" fill="WHITE" layoutX="244.0" layoutY="36.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle6" fill="WHITE" layoutX="296.0" layoutY="36.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle7" fill="WHITE" layoutX="348.0" layoutY="36.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets left="7.0" right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle8" fill="WHITE" layoutX="36.0" layoutY="88.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle9" fill="WHITE" layoutX="88.0" layoutY="88.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle10" fill="WHITE" layoutX="140.0" layoutY="88.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle11" fill="WHITE" layoutX="192.0" layoutY="88.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle12" fill="WHITE" layoutX="244.0" layoutY="88.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle13" fill="WHITE" layoutX="296.0" layoutY="88.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle14" fill="WHITE" layoutX="348.0" layoutY="88.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets left="7.0" right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle15" fill="WHITE" layoutX="36.0" layoutY="140.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle16" fill="WHITE" layoutX="88.0" layoutY="140.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle17" fill="WHITE" layoutX="140.0" layoutY="140.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle18" fill="WHITE" layoutX="192.0" layoutY="140.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle19" fill="WHITE" layoutX="244.0" layoutY="140.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle20" fill="WHITE" layoutX="296.0" layoutY="140.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle21" fill="WHITE" layoutX="348.0" layoutY="140.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets left="7.0" right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle22" fill="WHITE" layoutX="36.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle23" fill="WHITE" layoutX="88.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle24" fill="WHITE" layoutX="140.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle25" fill="WHITE" layoutX="192.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle26" fill="WHITE" layoutX="244.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle27" fill="WHITE" layoutX="296.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle28" fill="WHITE" layoutX="348.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets left="7.0" right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle29" fill="WHITE" layoutX="36.0" layoutY="244.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle30" fill="WHITE" layoutX="88.0" layoutY="244.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle31" fill="WHITE" layoutX="140.0" layoutY="244.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle32" fill="WHITE" layoutX="88.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle33" fill="WHITE" layoutX="140.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle34" fill="WHITE" layoutX="192.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle35" fill="WHITE" layoutX="244.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets left="7.0" right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle36" fill="WHITE" layoutX="296.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle37" fill="WHITE" layoutX="348.0" layoutY="192.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle38" fill="WHITE" layoutX="36.0" layoutY="244.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle39" fill="WHITE" layoutX="88.0" layoutY="244.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle40" fill="WHITE" layoutX="140.0" layoutY="244.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets right="7.0" top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+            <Circle fx:id="circle41" fill="WHITE" layoutX="192.0" layoutY="244.0" onMouseClicked="#onMouseClicked" radius="26.0" stroke="BLACK" strokeType="INSIDE">
+               <FlowPane.margin>
+                  <Insets top="7.0" />
+               </FlowPane.margin>
+            </Circle>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </FlowPane>
+      <Text layoutX="199.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="custom-label" text="Connect 4" />
+      <Button fx:id="btnReset" layoutX="275.0" layoutY="422.0" mnemonicParsing="false" onAction="#reset" text="Reset" />
+      <Label fx:id="txtLabel" layoutX="60.0" layoutY="426.0" />
+   </children>
+</AnchorPane>
